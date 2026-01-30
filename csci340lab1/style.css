@@ -68,3 +68,11 @@ h1, h2, h3, .navbar-brand {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+
+.hero-motivate {
+    font-family: 'Cinzel', serif;
+    color:#8B4513
+    font-size: 1.3rem;          /* Slightly larger than normal muted text */
+    margin-top: 1.5rem;         /* Extra breathing room between lines */
+    font-weight: 500;           /* Medium-bold for emphasis */
+}
