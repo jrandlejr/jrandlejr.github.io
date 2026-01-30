@@ -5,19 +5,19 @@
     --olive: #556B2F;       /* Forest olive green */
     --brown: #8B4513;       /* Warm saddle brown */
     --beige: #F5F5DC;       /* Soft antique white/beige paper */
-    --light-brown: #D2B48C; /* Tan accent for hover/muted text */
+    --light-tan:#E0D4B7; /* Tan accent for hover/muted text */
 }
 
 
 body {
     background-color: var(--beige);
-    font-family: 'Merriweather', serif; 
+    font-family: 'Lora', serif; 
     color: #333; 
 }
 
 
 h1, h2, h3, .navbar-brand {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
 }
 
 
@@ -41,7 +41,8 @@ h1, h2, h3, .navbar-brand {
 
 .display-4 {
     color: var(--brown) !important;
-    margin-bottom: 1rem;
+    font-size: 4.5rem; /* Larger font size for emphasis */
+    letter-spacing: 1px;
 }
 
 .lead {
