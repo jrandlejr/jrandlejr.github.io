@@ -10,9 +10,10 @@
 
 
 body {
-    background-color: var(--beige);
-    font-family: 'Lora', serif; 
-    color: #333; 
+    background: linear-gradient(135deg, #f5f0e1 0%, #e8dfc8 100%);
+    font-family: 'Lora', serif;
+    color: #2F2F2F;
+    min-height: 100vh; /* Makes sure gradient fills full height */
 }
 
 
@@ -69,10 +70,3 @@ h1, h2, h3, .navbar-brand {
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-.hero-motivate {
-    font-family: 'Cinzel', serif;
-    color:#8B4513
-    font-size: 1.3rem;          /* Slightly larger than normal muted text */
-    margin-top: 1.5rem;         /* Extra breathing room between lines */
-    font-weight: 500;           /* Medium-bold for emphasis */
-}
